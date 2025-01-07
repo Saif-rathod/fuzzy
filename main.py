@@ -13,12 +13,10 @@ from collections import Counter
 import string
 import time
 
-try:
-    nltk.data.find('tokenizers/punkt')
-    nltk.data.find('corpora/stopwords')
-except LookupError:
-    nltk.download('punkt')
-    nltk.download('stopwords')
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('punkt_tab')
+nltk.download('words')
 
 def preprocess_text(text):
     text = text.lower()
