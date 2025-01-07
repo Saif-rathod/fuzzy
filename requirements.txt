@@ -1,0 +1,8 @@
+streamlit
+pandas
+fuzzywuzzy
+python-Levenshtein
+scipy
+SequenceMatcher
+nltk
+plotly
